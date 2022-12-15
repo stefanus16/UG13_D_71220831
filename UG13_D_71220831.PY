@@ -1,7 +1,11 @@
 import turtle as t
 t.pensize(15)
 
-t.goto(0,0)
+t.penup()
+t.goto(0,200)
+t.pendown()
+
+
 t.left(180)
 t.forward(50)
 t.circle(75,180)
@@ -9,6 +13,7 @@ t.forward(00)
 t.circle(-75,180)
 t.forward(50)
 t.penup()
+t.goto(0,0)
 t.left(180)
 t.pendown()
 t.hideturtle()
@@ -18,7 +23,7 @@ import turtle as t
 t.pensize(15)
 
 t.penup()
-t.goto(100,50)
+t.goto(0,-300)
 t.pendown()
 
 t.left(90)
